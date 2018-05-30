@@ -1,34 +1,24 @@
 package banking;
 import java.util.Scanner;
-class bank{
-    float balance;
-    bank(float amount) {
-    balance=amount;
-}
-       void deposit(float amount) {
-        balance += amount;
-    }
-       void newacc(){
-           
-
-}
-       
-
-    void withdraw(float amount) {
-        if (amount < 500) {
-            System.out.println("Insufficient bal");
-        } else {
-            balance -= amount;
-        }
-    }
-
-    void display() {
-        System.out.println("Balance is:" + balance);
-    }
-}
+ 
 
 
 public class banking{
+    
+     /** 
+      
+     * This is a code for BASIC BANK OPERATIONS (WITHDRAW,DEPOSITE,DISPLAY BALANCE)
+     *IN THIS PART OF CODE WE ARE TAKING INTO CONSIDERATION THE USERS CHOICE
+     * HERE THE USER CAN DEPOSIT MONEY IN THE  BANK BY ENTERTING CHOICE AS 1
+     * THE USER CAN WITHDRAW MONEY FROM THE BANK BY ENTERTING CHOICE AS 2
+     *THE USER CAN CHECK HIS BANK BALANCE BY ENTERTING CHOICE AS 3
+     * AFTER USER FINISHES WITH HIS /HER OPERATIONS HE CAN EXIT WITH CHOICE 4
+ 
+     *INVALID CHOICE MESSAGE IS DISPLAYED WHEN CHOICE IS NOT APPROPRIATE
+     * @param args 
+     
+      
+      */  
 
     public static void main(String[] args) {
 
